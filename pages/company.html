@@ -6,18 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/common/import.css">
-    <script src="/resources/js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
     <title>Hurem</title>
 </head>
 
 <body>
     <div class="base-wrap">
+        <!-- start of header -->
         <header class="base-header">
             <h1 class="logo"><a href="#">HUREM</a></h1>
             <nav class="base-gnb">
-                <ul class="gnb">
+                <ul id="baseGnb" class="gnb">
                     <li class="depth1-li">
-                        <a href="#">Company</a>
+                        <a href="#" class="depth1-a">Company</a>
                         <ul class="depth2-ul">
                             <li><a href="#">Greeting</a></li>
                             <li><a href="#">History</a></li>
@@ -26,9 +29,42 @@
                             <li><a href="#">Partner</a></li>
                         </ul>
                     </li>
+                    <li class="depth1-li">
+                        <a href="#" class="depth1-a">Business</a>
+                        <ul class="depth2-ul">
+                            <li><a href="#">Hurem Doing</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">e-Prosumer</a></li>
+                            <li><a href="#">ESS</a></li>
+                            <li><a href="#">EV Recycling</a></li>
+                            <li><a href="#">Energy Monitoring</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1-li"><a href="#" class="depth1-a">News</a></li>
+                    <li class="depth1-li"><a href="#" class="depth1-a">Contact Us</a></li>
                 </ul>
+                <div class="btn-sys"><a href="#"><img src="/images/btn_sys.png" alt="Monitoring system"></a></div>
             </nav>
         </header>
+        <!-- end of header -->
+
+        <!-- start of main -->
+        <main class="base-contants company">
+            <!-- SLIDER -->
+            <div class="base-slider">
+                <div><img src="/images/img-slider1.jpg" alt=""></div>
+                <div><img src="/images/img-slider2.jpg" alt=""></div>
+                <div><img src="/images/img-slider3.jpg" alt=""></div>
+            </div>
+            <!--// SLIDER -->
+
+            <!-- Greeting  -->
+            <section id="greeting" class="contant">
+
+            </section>
+            <!--// Greeting-->
+        </main>
+        <!-- eng of main -->
     </div>
 </body>
 

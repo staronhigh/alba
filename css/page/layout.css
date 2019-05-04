@@ -14,7 +14,10 @@ html {
     background: url(/images/bg_header.png) 0 0 no-repeat;
     position:relative;
     top:0;
-    left:0;
+    left:50%;
+    margin-left: -685px;
+    position: fixed;
+    z-index: 99999;
 }
 
 .base-header .logo {
@@ -32,18 +35,74 @@ html {
 
 .base-header .base-gnb {
     position: absolute;
-    top:50px;
-    left:620px;
+    top:35px;
+    left:580px;
 }
 
-.base-header .base-gnb .gnb {}
-
-.base-header .base-gnb .gnb .depth1-li {}
-
+.base-header .base-gnb .gnb {
+    float: left;
+}
+.base-header .base-gnb .gnb:after {
+    content:"";
+    display: inline-block;
+    clear: both;
+}
+.base-header .base-gnb .gnb .depth1-li {
+    position: relative;
+    text-align: center;
+    font-size:14px;
+    width: 135px;
+    padding: 15px 0 13px;
+    float: left;
+}
+.base-header .base-gnb .gnb .depth1-li.active {
+    background: rgba(0,0,0,0.2);
+    border-radius:10px;
+    transition: 0.5s all;
+}
 .base-header .base-gnb .gnb .depth1-li a {
     color:#fff;
 }
-
+.base-header .base-gnb .gnb .depth1-li.active a.depth1-a  {
+    font-weight: 700;
+}
 .base-header .base-gnb .gnb .depth1-li .depth2-ul {
-    display: none;
+    padding: 15px 0 0;  
+}
+
+.base-header .base-gnb .gnb .depth1-li .depth2-ul li {}
+.base-header .base-gnb .gnb .depth1-li .depth2-ul li a {
+    display: block;
+    padding: 10px 0;
+}
+.base-header .base-gnb .btn-sys {
+    float: left;
+    margin-left: 15px;
+}
+
+.base-contants {}
+.base-contants .bx-wrapper {
+    position:relative;
+}
+.base-contants .bx-wrapper .bx-controls {
+    position:absolute;
+    bottom:30px;
+    left:50%;
+}
+.base-contants .bx-wrapper .bx-pager-item {
+    display: inline-block;
+}
+
+.base-contants .bx-wrapper .bx-pager-item a {
+    width: 11px;
+    height: 11px;
+    font-size:xx-small;
+    color:transparent;
+    background: #bcbdbd;
+    border-radius: 11px;
+    display: block;
+    margin: 0 10px;;
+}
+.base-contants .bx-wrapper .bx-pager-item a:hover , .base-contants .bx-wrapper .bx-pager-item a.active {
+    background: #2c7ee5;
 }
