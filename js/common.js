@@ -73,8 +73,13 @@ $(document).ready(function () {
         lastScrollTop = st;
     }
 
-
-
+    $('#baseGnb .depth2-ul li a').on('click' , function(){
+        var menuId = $(this).attr('href');
+        var scrollpos = $(menuId).offset().top;
+        $('html').animate({
+            scrollTop: scrollpos
+        }, 500);
+    });
 
 
 });
