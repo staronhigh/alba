@@ -61,7 +61,8 @@
     text-align: justify;
     line-height: 37px;
     font-size: 17px;
-    letter-spacing: 0
+    letter-spacing: 0;
+    font-family: 'Nanum Gothic';
 }
 
 .greeting .txt-area .name {
@@ -72,7 +73,86 @@
     height: 106px;
     padding: 50px 205px 0 0;
     background: url(/images/bg_company2.png) right top no-repeat;
+    font-family: 'Nanum Gothic';
 }
+
+.history {
+    position: relative;
+    height: 815px;
+    background: url(/images/img_company2.jpg) 0 0 no-repeat;
+}
+
+.history .dl-history {}
+
+.history .dl-history dt {
+    font-size: 60px;
+    letter-spacing: -2px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.history .dl-history dt span {
+    font-size: 27px;
+    letter-spacing: 0
+}
+
+.history .dl-history dd {
+    line-height: 28px;
+    font-size: 15px;
+    letter-spacing: 0;
+    font-family: 'Nanum Gothic';
+}
+
+.history .pos1 {
+    position: absolute;
+    top: 220px;
+    left: 75px;
+}
+
+.history .pos1 dt {
+    color: #ae1717;
+}
+
+.history .pos2 {
+    position: absolute;
+    top: 80px;
+    left: 377px;
+}
+
+.history .pos2 dt {
+    color: #009d99;
+}
+
+.history .pos3 {
+    position: absolute;
+    top: 320px;
+    left: 675px;
+}
+
+.history .pos3 dt {
+    color: #008ed1;
+}
+
+.history .pos4 {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+.history .pos4 dt {
+    color: #ff3c00;
+}
+
+.certification {
+    height: 982px;
+    text-align: center;
+    background: url(/images/img_company3.jpg) 0 0 no-repeat;
+}
+
+.certification .basic-tit01 {
+    padding-top: 120px;
+}
+
 
 
 /* common */
