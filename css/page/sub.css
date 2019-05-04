@@ -1,4 +1,73 @@
 
+
+/*공용*/
+.basic-tit01 {
+    font-size:45px;
+    font-weight: 900;
+    color:#2c7ee5;
+}
+
+.base-contants {}
+.base-contants .bx-wrapper {
+    position:relative;
+    height: 775px;
+}
+.base-contants .bx-wrapper .bx-controls {
+    position:absolute;
+    bottom:30px;
+    left:50%;
+}
+.base-contants .bx-wrapper .bx-pager-item {
+    display: inline-block;
+}
+
+.base-contants .bx-wrapper .bx-pager-item a {
+    width: 11px;
+    height: 11px;
+    font-size:xx-small;
+    color:transparent;
+    background: #bcbdbd;
+    border-radius: 11px;
+    display: block;
+    margin: 0 10px;;
+}
+.base-contants .bx-wrapper .bx-pager-item a:hover , .base-contants .bx-wrapper .bx-pager-item a.active {
+    background: #2c7ee5;
+}
+.greeting {
+    width: 100%;
+    height: 817px;
+    background: url(/images/img_company1.jpg) left 0 no-repeat;
+    padding-left: 775px;
+    box-sizing: border-box;
+}
+
+.greeting .txt-area {
+    background:url(/images/bg_company1.png) 0 60px no-repeat;
+    padding: 110px 0 0 0;
+}
+
+.greeting .txt-area .basic-tit01 {
+    text-align: right;
+    margin-bottom: 35px;
+}
+.greeting .txt-area .txt {
+    text-align: justify;
+    line-height: 37px;
+    font-size:17px;
+    letter-spacing: 0
+}
+.greeting .txt-area .name {
+    margin-top: 20px;
+    font-weight: 800;
+    letter-spacing: 0;
+    text-align: right;
+    height: 106px;
+    padding: 50px 205px 0 0;
+    background: url(/images/bg_company2.png) right top no-repeat;
+}
+
+
 /* common */
 div { box-sizing: border-box; }
 .cont-txt { font-size: 15px; color: #8c9395; line-height: 21px; }

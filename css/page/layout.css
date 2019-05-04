@@ -1,10 +1,13 @@
 body,
 html {
     font-family: 'Roboto', 'Nanum Gothic', sans-serif;
+    letter-spacing: 1px;
+    color:#727171;
 }
 
 .base-wrap {
     width: 1370px;
+    overflow: hidden;
     margin: 0 auto;
 }
 
@@ -54,6 +57,9 @@ html {
     width: 135px;
     padding: 15px 0 13px;
     float: left;
+    height:42px;
+    overflow:hidden;
+    box-sizing: border-box;
 }
 .base-header .base-gnb .gnb .depth1-li.active {
     background: rgba(0,0,0,0.2);
@@ -80,29 +86,3 @@ html {
     margin-left: 15px;
 }
 
-.base-contants {}
-.base-contants .bx-wrapper {
-    position:relative;
-}
-.base-contants .bx-wrapper .bx-controls {
-    position:absolute;
-    bottom:30px;
-    left:50%;
-}
-.base-contants .bx-wrapper .bx-pager-item {
-    display: inline-block;
-}
-
-.base-contants .bx-wrapper .bx-pager-item a {
-    width: 11px;
-    height: 11px;
-    font-size:xx-small;
-    color:transparent;
-    background: #bcbdbd;
-    border-radius: 11px;
-    display: block;
-    margin: 0 10px;;
-}
-.base-contants .bx-wrapper .bx-pager-item a:hover , .base-contants .bx-wrapper .bx-pager-item a.active {
-    background: #2c7ee5;
-}
