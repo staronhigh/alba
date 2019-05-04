@@ -1,22 +1,23 @@
-
-
 /*공용*/
 .basic-tit01 {
-    font-size:45px;
+    font-size: 45px;
     font-weight: 900;
-    color:#2c7ee5;
+    color: #2c7ee5;
 }
 
 .base-contants {}
+
 .base-contants .bx-wrapper {
-    position:relative;
+    position: relative;
     height: 775px;
 }
+
 .base-contants .bx-wrapper .bx-controls {
-    position:absolute;
-    bottom:30px;
-    left:50%;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
 }
+
 .base-contants .bx-wrapper .bx-pager-item {
     display: inline-block;
 }
@@ -24,16 +25,20 @@
 .base-contants .bx-wrapper .bx-pager-item a {
     width: 11px;
     height: 11px;
-    font-size:xx-small;
-    color:transparent;
+    font-size: xx-small;
+    color: transparent;
     background: #bcbdbd;
     border-radius: 11px;
     display: block;
-    margin: 0 10px;;
+    margin: 0 10px;
+    ;
 }
-.base-contants .bx-wrapper .bx-pager-item a:hover , .base-contants .bx-wrapper .bx-pager-item a.active {
+
+.base-contants .bx-wrapper .bx-pager-item a:hover,
+.base-contants .bx-wrapper .bx-pager-item a.active {
     background: #2c7ee5;
 }
+
 .greeting {
     width: 100%;
     height: 817px;
@@ -43,7 +48,7 @@
 }
 
 .greeting .txt-area {
-    background:url(/images/bg_company1.png) 0 60px no-repeat;
+    background: url(/images/bg_company1.png) 0 60px no-repeat;
     padding: 110px 0 0 0;
 }
 
@@ -51,12 +56,14 @@
     text-align: right;
     margin-bottom: 35px;
 }
+
 .greeting .txt-area .txt {
     text-align: justify;
     line-height: 37px;
-    font-size:17px;
+    font-size: 17px;
     letter-spacing: 0
 }
+
 .greeting .txt-area .name {
     margin-top: 20px;
     font-weight: 800;
@@ -69,14 +76,78 @@
 
 
 /* common */
-.cont-txt { font-size: 15px; color: #8c9395; line-height: 21px; }
+.cont-txt {
+    font-size: 15px;
+    color: #8c9395;
+    line-height: 21px;
+}
 
 
 /* business */
-.business .visual { height: 710px; padding: 298px 0 0 865px; background:url(/images/bg_business01.png) 0 0 no-repeat; }
-.business .visual .basic-tit01 { display: block; margin-bottom: 10px; font-size: 48px; line-height: 1; }
-.business .visual .ico-cont { margin-top: 30px; }
-.business .visual .ico-cont span { display: inline-block; margin-right: 70px; font-size: 15px; text-align: center; color:#8c9395; font-weight: 700; line-height: 1.2;}
-.business .visual .ico-cont span:before { content:''; display: block; width: 90px; height: 80px; margin-bottom: 10px; background:url(/images/icon_business.png) 4px 0 no-repeat; }
-.business .visual .ico-cont span:nth-child(2):before { background-position: -100px 0; }
-.business .visual .ico-cont span:nth-child(3):before { background-position: -192px 0; }
+.business .visual {
+    height: 710px;
+    padding: 298px 0 0 865px;
+    background: url(/images/bg_business01.png) 0 0 no-repeat;
+}
+
+.business .visual .basic-tit01 {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 48px;
+    line-height: 1;
+    text-align: left; 
+}
+
+.business .visual .ico-cont {
+    margin-top: 30px;
+}
+
+.business .visual .ico-cont span {
+    display: inline-block;
+    margin-right: 65px;
+    font-size: 15px;
+    text-align: center;
+    color: #8c9395;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.business .visual .ico-cont span:before {
+    content: '';
+    display: block;
+    width: 90px;
+    height: 80px;
+    margin-bottom: 10px;
+    background: url(/images/icon_business.png) 4px 0 no-repeat;
+}
+
+.business .visual .ico-cont span:nth-child(2):before {
+    background-position: -100px 0;
+}
+
+.business .visual .ico-cont span:nth-child(3):before {
+    background-position: -192px 0;
+}
+
+.business .basic-tit01,
+.business .cont-txt
+ { 
+    text-align: center; 
+}
+.business .basic-tit01 + .cont-txt {
+    margin-top: 10px;
+}
+
+.business .cont1 { 
+    padding: 95px 0 120px;
+    background: #efefef;
+    text-align: center; 
+}
+.business .cont-bs {
+
+}
+.business .cont-bs > div { position: relative; display: inline-block; width: 272px; padding-top: 246px; background:#fff; }
+.business .cont-bs strong { display:block; height:82px; line-height: 82px; font-size: 25px; font-weight: 900; color: #fff; background:#2c7ee5; }
+.business .cont-bs strong:before { content:''; display:block; position: absolute; top: 54px; left: 50%; margin: -75px 0 0 -75px; width:150px; height:150px; background: #fff url(/images/icon_business.png) 0 -100px no-repeat; }
+.business .cont-bs .bs2 strong:before { background-position: -150px -100px; }
+.business .cont-bs .bs-hover { display: none;}
