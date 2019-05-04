@@ -63,11 +63,17 @@ $(document).ready(function () {
         
         if (st > lastScrollTop && st > navbarHeight) {
             // Scroll Down 
-            $('.base-header').fadeOut(500);
+            // $('.base-header').fadeOut(500);
+            $('.base-header').animate({
+                top: '-153px'
+            }, 200);
         } else {
             // Scroll Up 
             if (st + $(window).height() < $(document).height()) {
-                $('.base-header').fadeIn(500);
+                // $('.base-header').fadeIn(500);
+                $('.base-header').animate({
+                    top: '0'
+                }, 200);
             }
         }
         lastScrollTop = st;
