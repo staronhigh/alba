@@ -9,12 +9,23 @@
     color: #8c9395;
     line-height: 21px;
 }
-
-.base-contants {}
-
+.sub-tit {
+    color:#fff;
+    padding: 280px 0 0 0;
+    text-align: center;
+    font-size:48px;
+}
+.sub-txt {
+    color:#fff;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 21px;
+    font-size:15px;
+}
 .base-contants .bx-wrapper {
     position: relative;
     height: 775px;
+    font-weight: 800;
 }
 
 .base-contants .bx-wrapper .bx-controls {
@@ -171,15 +182,102 @@
 .partner .cont-txt {
     margin-top: 15px;
 }
+.news {
+    padding-bottom: 90px;
+}
+.news .sub-visual {
+    height: 570px;
+    margin-bottom: 50px;
+    background:url(/images/img_new01.jpg) 0 0  no-repeat;
+}
 
-
-
-
-
-
-
-
-
+.serch-box {
+    text-align: right;
+    width: 1035px;
+    margin: 0 auto;
+}
+.serch-box input {
+    border: 1px solid #cbcbcb;
+    width: 295px;
+    height:35px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-bottom:35px;
+}
+.serch-box button {
+    width:90px;
+    height:35px;
+    vertical-align: top;
+    color:#fff;
+    background: #2c7ee5;
+}
+.news-list {
+    width:1035px;
+    margin: 0 auto 60px;
+    border-top: 1px solid #bababb;
+}
+.news-list li a {
+    padding: 45px 0;
+    display:block;
+    color:#8c9395;
+    border-bottom: 1px solid #bababb;
+}
+.news-list li a figure:after {
+    content:"";
+    clear: both;
+    display: block;
+}
+.news-list li a .thumb {
+    float:left;
+    margin-right:30px;
+}
+.news-list li a figcaption {
+    float: left;
+    position: relative;
+    width: 77%;
+}
+.news-list li a figcaption .title {
+    font-size:48px;
+    color:#2c7ee5;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.news-list li a figcaption .con {
+    font-size:15px;
+    line-height: 21px;
+    height: 50px;
+    overflow: hidden;
+    width: 680px;
+}
+.news-list li a figcaption .date {
+    position:absolute;
+    bottom:8px;
+    right:0;
+}
+.paging {
+    text-align: center;
+}
+.paging .button {
+    color:#fff;
+    width: 90px;
+    height: 35px;
+    background: #2c7ee5;
+}
+.paging a {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border:1px solid #cbcbcb;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-top: 8px;
+    color:#8c9395;
+    margin: 0 3px;
+}
+.paging a:hover , .paging a.active {
+    border: 1px solid #2c7ee5;
+    color:#2c7ee5;
+} 
 /* 공통 */
 .basic-tit02 {
     font-family: 'Nanum Gothic';
