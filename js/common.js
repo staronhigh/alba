@@ -17,6 +17,25 @@ $(document).ready(function () {
         }, 300)
     });
 
+    $('#baseGnb .depth2-ul li a').on('click', function () {
+
+        $(this).closest('.depth2-ul').animate({
+            opacity: '0'
+        }, 10);
+
+        $(this).closest('.depth1-li').animate({
+            height: '42px'
+        }, 10);
+
+
+
+        var menuId = $(this).attr('href');
+        var scrollpos = $(menuId).offset().top;
+        $('html').animate({
+            scrollTop: scrollpos
+        }, 500);
+    });
+
 
     $('.base-slider').bxSlider({
         controls: false,
@@ -56,11 +75,11 @@ $(document).ready(function () {
     }, 250);
 
     function hasScrolled() {
-        var st = $(this).scrollTop(); 
+        var st = $(this).scrollTop();
 
-        if (Math.abs(lastScrollTop - st) <= delta) 
-        return;
-        
+        if (Math.abs(lastScrollTop - st) <= delta)
+            return;
+
         if (st > lastScrollTop && st > navbarHeight) {
             // Scroll Down 
             // $('.base-header').fadeOut(500);
@@ -79,13 +98,7 @@ $(document).ready(function () {
         lastScrollTop = st;
     }
 
-    $('#baseGnb .depth2-ul li a').on('click' , function(){
-        var menuId = $(this).attr('href');
-        var scrollpos = $(menuId).offset().top;
-        $('html').animate({
-            scrollTop: scrollpos
-        }, 500);
-    });
+
 
 
 });
