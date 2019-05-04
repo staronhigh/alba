@@ -1,20 +1,23 @@
 /*공용*/
 .basic-tit01 {
-    font-size:45px;
+    font-size: 45px;
     font-weight: 900;
-    color:#2c7ee5;
+    color: #2c7ee5;
 }
 
 .base-contants {}
+
 .base-contants .bx-wrapper {
-    position:relative;
+    position: relative;
     height: 775px;
 }
+
 .base-contants .bx-wrapper .bx-controls {
-    position:absolute;
-    bottom:30px;
-    left:50%;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
 }
+
 .base-contants .bx-wrapper .bx-pager-item {
     display: inline-block;
 }
@@ -22,16 +25,20 @@
 .base-contants .bx-wrapper .bx-pager-item a {
     width: 11px;
     height: 11px;
-    font-size:xx-small;
-    color:transparent;
+    font-size: xx-small;
+    color: transparent;
     background: #bcbdbd;
     border-radius: 11px;
     display: block;
-    margin: 0 10px;;
+    margin: 0 10px;
+    ;
 }
-.base-contants .bx-wrapper .bx-pager-item a:hover , .base-contants .bx-wrapper .bx-pager-item a.active {
+
+.base-contants .bx-wrapper .bx-pager-item a:hover,
+.base-contants .bx-wrapper .bx-pager-item a.active {
     background: #2c7ee5;
 }
+
 .greeting {
     width: 100%;
     height: 817px;
@@ -41,7 +48,7 @@
 }
 
 .greeting .txt-area {
-    background:url(/images/bg_company1.png) 0 60px no-repeat;
+    background: url(/images/bg_company1.png) 0 60px no-repeat;
     padding: 110px 0 0 0;
 }
 
@@ -49,12 +56,15 @@
     text-align: right;
     margin-bottom: 35px;
 }
+
 .greeting .txt-area .txt {
     text-align: justify;
     line-height: 37px;
-    font-size:17px;
-    letter-spacing: 0
+    font-size: 17px;
+    letter-spacing: 0;
+    font-family: 'Nanum Gothic';
 }
+
 .greeting .txt-area .name {
     margin-top: 20px;
     font-weight: 800;
@@ -63,4 +73,82 @@
     height: 106px;
     padding: 50px 205px 0 0;
     background: url(/images/bg_company2.png) right top no-repeat;
+    font-family: 'Nanum Gothic';
+}
+
+.history {
+    position: relative;
+    height: 815px;
+    background: url(/images/img_company2.jpg) 0 0 no-repeat;
+}
+
+.history .dl-history {}
+
+.history .dl-history dt {
+    font-size: 60px;
+    letter-spacing: -2px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.history .dl-history dt span {
+    font-size: 27px;
+    letter-spacing: 0
+}
+
+.history .dl-history dd {
+    line-height: 28px;
+    font-size: 15px;
+    letter-spacing: 0;
+    font-family: 'Nanum Gothic';
+}
+
+.history .pos1 {
+    position: absolute;
+    top: 220px;
+    left: 75px;
+}
+
+.history .pos1 dt {
+    color: #ae1717;
+}
+
+.history .pos2 {
+    position: absolute;
+    top: 80px;
+    left: 377px;
+}
+
+.history .pos2 dt {
+    color: #009d99;
+}
+
+.history .pos3 {
+    position: absolute;
+    top: 320px;
+    left: 675px;
+}
+
+.history .pos3 dt {
+    color: #008ed1;
+}
+
+.history .pos4 {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+.history .pos4 dt {
+    color: #ff3c00;
+}
+
+.certification {
+    height: 982px;
+    text-align: center;
+    background: url(/images/img_company3.jpg) 0 0 no-repeat;
+}
+
+.certification .basic-tit01 {
+    padding-top: 120px;
 }
