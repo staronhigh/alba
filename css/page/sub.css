@@ -4,6 +4,11 @@
     font-weight: 900;
     color: #2c7ee5;
 }
+.cont-txt {
+    font-size: 15px;
+    color: #8c9395;
+    line-height: 21px;
+}
 
 .base-contants {}
 
@@ -152,16 +157,20 @@
 .certification .basic-tit01 {
     padding-top: 120px;
 }
-
-
-
-/* common */
-.cont-txt {
-    font-size: 15px;
-    color: #8c9395;
-    line-height: 21px;
+.certification .cont-txt {
+    margin-top: 15px;
 }
-
+.partner {
+    height: 494px;
+    text-align: center;
+    background: url(/images/img_company4.jpg) 0 0 no-repeat;
+}
+.partner .basic-tit01 {
+    padding-top: 70px;
+}
+.partner .cont-txt {
+    margin-top: 15px;
+}
 
 /* business */
 .business .visual {
