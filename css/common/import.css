@@ -1,6 +1,6 @@
 @import "normalize.css";
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css?family=Lato|Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Nanum+Gothic:400,700,800');
 @import "common.css";
 @import "/css/page/layout.css";
 @import "/css/page/sub.css";

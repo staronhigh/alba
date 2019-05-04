@@ -471,3 +471,13 @@
 .business .cont5 .bs-info dd {
     line-height: 52px;
 }
+
+.contact .cont1 { padding:140px 150px; }
+.contact .cont-form { float: left; display: table; width:615px; padding: 20px 45px; background: #8c9395; }
+.contact .cont-form li { margin: 12px 0; }
+.contact .cont-form label { display: table-cell; vertical-align: middle; width: 65px;  color: #fff; font-size: 15px; font-weight: 700; }
+.contact .cont-form input, 
+.contact .cont-form textarea { width:100%; height: 36px; border: 1px solid #a9aaab; background: #fff; }
+.contact .cont-form textarea { height:248px;}
+.contact .cont-form span { display:table-cell; padding-left:20px; width: 420px;}
+.contact .cont-info { float: right; width: 415px; }
