@@ -4,10 +4,12 @@
     font-weight: 900;
     color: #2c7ee5;
 }
+
 .cont-txt {
     font-size: 15px;
     color: #8c9395;
     line-height: 21px;
+    letter-spacing: -0.01em;
 }
 
 .base-contants {}
@@ -157,17 +159,21 @@
 .certification .basic-tit01 {
     padding-top: 120px;
 }
+
 .certification .cont-txt {
     margin-top: 15px;
 }
+
 .partner {
     height: 494px;
     text-align: center;
     background: url(/images/img_company4.jpg) 0 0 no-repeat;
 }
+
 .partner .basic-tit01 {
     padding-top: 70px;
 }
+
 .partner .cont-txt {
     margin-top: 15px;
 }
@@ -207,6 +213,10 @@
     margin-bottom: 10px;
     font-size: 48px;
     line-height: 1;
+    text-align: left;
+}
+
+.business .visual .cont-txt {
     text-align: left;
 }
 
@@ -274,6 +284,7 @@
     position: relative;
     display: inline-block;
     width: 272px;
+    margin: 0 2px;
     padding-top: 246px;
     background: #fff;
 }
@@ -313,20 +324,23 @@
 }
 
 .business .cont-bs [class*="bs"]:hover .bs-hover {
-    display: block;
+    opacity: 1;
+    transition: 0.5s all;
 }
 
 .business .cont-bs .bs-hover {
-    display: none;
+    opacity: 0;
+    transition: 0.5s all;
     position: absolute;
     top: -30px;
     left: -30px;
     width: 120%;
-    height: 425px;
+    height: 390px;
     padding: 80px 30px 100px;
     background: #2c7ee5;
     color: #fff;
     z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4)
 }
 
 .business .cont-bs .bs-hover p {
@@ -390,7 +404,7 @@
 .business .cont3 .cont-img strong em {
     font-size: 15px;
     font-style: normal;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .business .cont4 {
@@ -411,11 +425,14 @@
 }
 
 .business .cont5 {
-    padding: 125px 150px 0;
+    padding: 115px 150px 0;
 }
+
+.business .cont5 .bs-system {}
 
 .business .cont5 .bs-system .basic-tit01 {
     text-align: left;
+    line-height: 1.2;
 }
 
 .business .cont5 .bs-system p {
@@ -428,4 +445,29 @@
     padding-right: 50%;
     height: 420px;
     background: url(/images/bg_business03.png) 100% 0 no-repeat;
+}
+
+.business .cont5 .bs-info {
+    margin: 0 -150px;
+    height: 524px;
+    padding: 235px 132px 0;
+    background: url(/images/bg_business04.png) 0 bottom no-repeat;
+}
+
+.business .cont5 .bs-info dl {
+    display: inline-block;
+    width: 490px;
+    margin: 0 30px;
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+}
+
+.business .cont5 .bs-info dt {
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.business .cont5 .bs-info dd {
+    line-height: 52px;
 }
