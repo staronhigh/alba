@@ -46,4 +46,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-div {box-sizing: border-box;}
+section, div {box-sizing: border-box;}
