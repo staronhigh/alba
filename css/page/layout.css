@@ -114,11 +114,9 @@ html {
 .btn-top {
     position: fixed;
     bottom:185px;
-    left:50%;
-    margin-left: -685px;
-    width: 1370px;
+    right:50%;
+    margin-right: -685px;
     text-align: right;
-    background: red;
     display: none;
 }
 .btn-top button {
