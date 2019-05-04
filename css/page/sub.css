@@ -1,0 +1,14 @@
+
+/* common */
+div { box-sizing: border-box; }
+.cont-txt { font-size: 15px; color: #8c9395; line-height: 21px; }
+
+
+/* business */
+.business .visual { height: 710px; padding: 298px 0 0 865px; background:url(/images/bg_business01.png) 0 0 no-repeat; }
+.business .visual .basic-tit01 { display: block; margin-bottom: 10px; font-size: 48px; line-height: 1; }
+.business .visual .ico-cont { margin-top: 30px; }
+.business .visual .ico-cont span { display: inline-block; margin-right: 70px; font-size: 15px; text-align: center; color:#8c9395; font-weight: 700; line-height: 1.2;}
+.business .visual .ico-cont span:before { content:''; display: block; width: 90px; height: 80px; margin-bottom: 10px; background:url(/images/icon_business.png) 4px 0 no-repeat; }
+.business .visual .ico-cont span:nth-child(2):before { background-position: -100px 0; }
+.business .visual .ico-cont span:nth-child(3):before { background-position: -192px 0; }
