@@ -29,7 +29,8 @@ $(document).ready(function () {
 
 
 
-        var menuId = $(this).attr('href');
+        var menuId = $(this).attr('href').slice(-7);
+        console.log(menuId);
         var scrollpos = $(menuId).offset().top;
         $('html').animate({
             scrollTop: scrollpos
