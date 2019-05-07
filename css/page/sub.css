@@ -710,3 +710,48 @@
 .map-box .root_daum_roughmap .wrap_controllers {
     display: none;
 }
+.basic-view {
+    width: 1025px;
+    margin:0 auto;
+}
+.basic-view .title-box {
+    position:relative;
+    padding: 25px 0 25px 5px;
+    border-top: 1px solid #bababb;
+    border-bottom: 1px solid #bababb;
+    margin-bottom: 50px;
+}
+.basic-view .title-box h3 {
+    font-size:55px;
+    color:#2c7ee5;
+    font-weight: 800;
+}
+.basic-view .title-box .data {
+    font-size:18px;
+    color:#8c9395;
+    position:absolute;
+    bottom:30px;
+    right:10px;
+}
+.basic-view .view-box {
+    font-size:18px;
+    line-height: 24px;
+    color:#8c9395;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #bababb;
+}
+
+.basic-view .btn-list {
+   margin-top: 40px;
+}
+.basic-view .btn-list a {
+    display: block;
+    width: 104px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    color:#fff;
+    background: #2c7ee5;
+    font-size:22px;
+    line-height: 35px;
+}
