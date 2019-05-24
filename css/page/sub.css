@@ -336,7 +336,7 @@
 .business .visual {
     height: 710px;
     padding: 298px 0 0 865px;
-    background: url(/images/bg_business01.png) 0 0 no-repeat;
+    background:#fff url(/images/bg_business01.png) 0 0 no-repeat !important;
 }
 
 .business .visual .basic-tit01 {
@@ -402,7 +402,7 @@
 
 .business .cont1 {
     padding: 95px 0 120px;
-    background: #efefef;
+    background: #efefef !important;
     text-align: center;
 }
 
@@ -496,7 +496,7 @@
 .business .cont2 {
     height: 790px;
     padding-top: 100px;
-    background: url(/images/bg_business02.png) 0 0 no-repeat;
+    background:url(/images/bg_business02.png) 0 0 no-repeat !important;
 }
 
 .business .cont2 .basic-tit02 {
@@ -769,6 +769,31 @@
     line-height: 35px;
 }
 
+.prosumer-pos {
+    text-align: center;
+    display: table;
+    width: 80%;
+    margin: 60px auto 0;
+}
+.prosumer-pos .basic-ico {
+    display: table-cell;
+    vertical-align: middle;
+}
+.prosumer-pos p {
+    color:#fff;
+    font-size:15px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.prosumer-pos p.txt1 {
+    margin: 50px 0;
+}
+.prosumer-pos p.txt2 {
+    text-align: left;
+    margin-left: 54px;
+}
 /* animation  */
 .drop-effect1 {transform: translate3d(0, -50px, 0); opacity:0; }
 .active .drop-effect1 { transform:translate3d(0,0,0); opacity:1; transition-property:opacity, transform;  transition-duration: 0.3s; transition-delay:0.2s; transition-timing-function:ease-in; }
