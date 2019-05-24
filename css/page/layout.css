@@ -5,6 +5,8 @@ html {
     background: lightgrey;
 }
 
+main { opacity: 0;}
+
 .base-wrap {
     width: 1370px;
     margin: 0 auto;
