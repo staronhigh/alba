@@ -62,14 +62,14 @@
 .greeting {
     width: 100%;
     height: 817px;
-    background: url(/images/img_company1.jpg) left 0 no-repeat;
+    background:#fff url(/images/img_company1.jpg) left 0 no-repeat !important;
     padding-left: 775px;
     box-sizing: border-box;
 }
 
 .greeting .txt-area {
-    background: url(/images/bg_company1.png) 0 60px no-repeat;
-    padding: 110px 0 0 0;
+    background:#fff url(/images/bg_company1.png) 0 60px no-repeat !important;
+    padding: 110px 50px 0 0;
 }
 
 .greeting .txt-area .basic-tit01 {
@@ -99,7 +99,7 @@
 .history {
     position: relative;
     height: 815px;
-    background: url(/images/img_company2.jpg) 0 0 no-repeat;
+    background:#fff url(/images/img_company2.jpg) 0 0 no-repeat !important;
 }
 
 .history .dl-history {}
@@ -166,7 +166,7 @@
 .certification {
     height: 982px;
     text-align: center;
-    background: url(/images/img_company3.jpg) 0 0 no-repeat;
+    background:#fff url(/images/bg_company3.png) 0 0 no-repeat !important;
 }
 
 .certification .basic-tit01 {
@@ -176,7 +176,15 @@
 .certification .cont-txt {
     margin-top: 15px;
 }
-
+.certification .cert-list {
+    margin-top:45px;
+}
+.certification .cert-list span {
+    margin-left: 10px;
+}
+.certification .cert-list span:first-child {
+    margin-left:0;
+}
 .partner {
     height: 494px;
     text-align: center;
@@ -190,7 +198,12 @@
 .partner .cont-txt {
     margin-top: 15px;
 }
-
+.partner .part-list {
+    margin-top: 115px;
+}
+.partner .part-list span:first-child {
+    margin-right: 150px;
+}
 .news {
     padding-bottom: 90px;
 }
