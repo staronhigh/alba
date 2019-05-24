@@ -50,6 +50,16 @@ $(document).ready(function () {
         } else {
             $('.btn-top').fadeOut(200);
         }
+
+        var navPos = $('.base-header').height();
+		$('.content').each(function(i){
+            var sectionTop = $(this).offset().top;
+            console.log(sectionTop)
+			if ($(window).scrollTop() >= sectionTop - navPos){
+                $('.content').eq(i).addClass('active');
+                
+            }
+		});
     });
 
     $(".btn-top button").click(function () {

@@ -755,3 +755,13 @@
     font-size:22px;
     line-height: 35px;
 }
+
+/* animation  */
+.drop-effect1 {transform: translate3d(0, -50px, 0); opacity:0; }
+.active .drop-effect1 { transform:translate3d(0,0,0); opacity:1; transition-property:opacity, transform;  transition-duration: 0.3s; transition-delay:0.2s; transition-timing-function:ease-in; }
+.drop-effect2 { transform: translate3d(0, -50px, 0); opacity:0;  }
+.active .drop-effect2 { transform:translate3d(0,0,0); opacity:1; transition-property:opacity, transform;  transition-duration: 0.3s; transition-delay:0.5s; transition-timing-function:ease-in;}
+.drop-effect3 { transform: translate3d(0, -100px, 0); opacity:0; }
+.active .drop-effect3 { transform:translate3d(0,0,0); opacity:1;transition-property:opacity, transform;  transition-duration: 0.3s; transition-delay:0.8s; transition-timing-function:ease-in;}
+.drop-effect4 { transform: translate3d(0, -150px, 0); opacity:0; }
+.active .drop-effect4 { transform:translate3d(0,0,0); opacity:1;transition-property:opacity, transform;  transition-duration: 0.3s; transition-delay:1s; transition-timing-function:ease-in;}
