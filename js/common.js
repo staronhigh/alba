@@ -1,5 +1,11 @@
 $(document).ready(function () {
 
+    //페이지 로드시 페이드인
+    $(window).load(function (event) {
+        setTimeout(function(){
+            $('main').animate({'opacity': '1'});
+        },300)
+    });
 
     $('#baseGnb .depth1-li .depth2-ul').css({
         opacity: 0,
@@ -43,9 +49,9 @@ $(document).ready(function () {
         auto: true
     });
 
-    //
+    // 첫번째 섹션 애니메이션
     setTimeout(function(){
-        $('#cont11 , #cont21').addClass('active');
+        $('#cont11 , #cont21, .sub-visual').addClass('active');
     },500)
     
 
@@ -59,8 +65,6 @@ $(document).ready(function () {
 
         $('.content').each(function(i){
             var sectionTop = $(this).offset().top;
-            console.log(sectionTop);
-            console.log('window ' + $(window).scrollTop());
 			if ($(window).scrollTop() >= sectionTop - 400){
                 $('.content').eq(i).addClass('active');
                 
