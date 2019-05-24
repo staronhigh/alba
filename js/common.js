@@ -43,6 +43,12 @@ $(document).ready(function () {
         auto: true
     });
 
+    //
+    setTimeout(function(){
+        $('#cont11').addClass('active');
+    },500)
+    
+
     $(window).scroll(function () {
 
         if ($(this).scrollTop() > 600) {
@@ -51,11 +57,11 @@ $(document).ready(function () {
             $('.btn-top').fadeOut(200);
         }
 
-        var navPos = $('.base-header').height();
-		$('.content').each(function(i){
+        $('.content').each(function(i){
             var sectionTop = $(this).offset().top;
-            console.log(sectionTop)
-			if ($(window).scrollTop() >= sectionTop - navPos){
+            console.log(sectionTop);
+            console.log('window ' + $(window).scrollTop());
+			if ($(window).scrollTop() >= sectionTop - 400){
                 $('.content').eq(i).addClass('active');
                 
             }
