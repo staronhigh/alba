@@ -342,12 +342,7 @@
 .business .visual {
     height: 710px;
     padding: 298px 0 0 865px;
-<<<<<<< HEAD
-    background: url(/images/bg_business01.png) 0 0 no-repeat;
-    overflow: hidden;
-=======
     background:#fff url(/images/bg_business01.png) 0 0 no-repeat !important;
->>>>>>> 5d2aa60a4d846073f8e215456cb487b1e76b3a74
 }
 
 .business .visual .basic-tit01 {
