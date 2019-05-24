@@ -545,7 +545,7 @@
 
 .business .cont4 {
     padding: 125px 195px 135px;
-    background: #efefef;
+    background: #efefef !important;
 }
 
 .business .cont4 .cont-img {
@@ -576,9 +576,15 @@
 }
 
 .business .cont5 .bs-system {
-    padding-right: 50%;
-    height: 420px;
-    background: url(/images/bg_business03.png) 100% 0 no-repeat;
+    margin-bottom: 50px;
+}
+.business .cont5 .bs-system .bs-txt {
+    display: inline-block;
+    margin-right: 90px;
+    vertical-align: top;
+}
+.business .cont5 .bs-system .img-bs {
+    display: inline-block;
 }
 
 .business .cont5 .bs-info {
@@ -610,7 +616,18 @@
     height: 570px;
     background: url(/images/bg_contact.png) 0 0 no-repeat;
 }
+.business .cont5 .img-area1 {
 
+}
+.business .cont5 .img-area1 p {
+    display: inline-block;
+}
+.business .cont5 .img-area1 p.fr {float: right; margin-right:30px;}
+.business .cont5 .img-area1 p.both {
+    margin-top: 40px;
+    margin-bottom:30px;
+    clear: both;
+}
 .contact .cont1 {
     padding: 140px 132px;
 }
