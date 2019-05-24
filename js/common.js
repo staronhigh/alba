@@ -45,7 +45,7 @@ $(document).ready(function () {
 
     //
     setTimeout(function(){
-        $('#cont11').addClass('active');
+        $('#cont11 , #cont21').addClass('active');
     },500)
     
 

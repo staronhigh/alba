@@ -65,6 +65,7 @@
     background:#fff url(/images/img_company1.jpg) left 0 no-repeat !important;
     padding-left: 775px;
     box-sizing: border-box;
+    overflow:hidden;
 }
 
 .greeting .txt-area {
@@ -125,7 +126,7 @@
 
 .history .pos1 {
     position: absolute;
-    top: 220px;
+    /* top: 220px; */
     left: 75px;
 }
 
@@ -135,7 +136,7 @@
 
 .history .pos2 {
     position: absolute;
-    top: 80px;
+    /* top: 80px; */
     left: 377px;
 }
 
@@ -145,7 +146,7 @@
 
 .history .pos3 {
     position: absolute;
-    top: 320px;
+    /* top: 320px; */
     left: 675px;
 }
 
@@ -155,7 +156,7 @@
 
 .history .pos4 {
     position: absolute;
-    top: 150px;
+    /* top: 150px; */
     right: 50px;
 }
 
@@ -167,6 +168,7 @@
     height: 982px;
     text-align: center;
     background:#fff url(/images/bg_company3.png) 0 0 no-repeat !important;
+    overflow:hidden;
 }
 
 .certification .basic-tit01 {
@@ -180,7 +182,8 @@
     margin-top:45px;
 }
 .certification .cert-list span {
-    margin-left: 10px;
+    display:inline-block;
+    margin-left: 7px;
 }
 .certification .cert-list span:first-child {
     margin-left:0;
@@ -200,6 +203,9 @@
 }
 .partner .part-list {
     margin-top: 115px;
+}
+.partner .part-list span {
+    display:inline-block;
 }
 .partner .part-list span:first-child {
     margin-right: 150px;
@@ -337,6 +343,7 @@
     height: 710px;
     padding: 298px 0 0 865px;
     background: url(/images/bg_business01.png) 0 0 no-repeat;
+    overflow: hidden;
 }
 
 .business .visual .basic-tit01 {
@@ -770,8 +777,8 @@
 }
 
 /* animation  */
-[class*="drop-effect"] {transform: translate3d(0, -50px, 0); opacity:0; }
-.active [class*="drop-effect"] { transform:translate3d(0,0,0); opacity:1; transition-property:opacity, transform; transition-duration: 0.3s; transition-timing-function:ease-in; }
+[class*="drop-effect"] { position:relative; top: 80px; opacity:0; }
+.active [class*="drop-effect"] { top: 0; opacity:1; transition-property:all; transition-duration: 0.3s; transition-timing-function:ease-in; }
 .active .drop-effect1 { transition-delay:0.2s; }
 .active .drop-effect2 { transition-delay:0.5s; }
 .active .drop-effect3 { transition-delay:0.8s; }
@@ -779,20 +786,41 @@
 .active .drop-effect5 { transition-delay:1.4s; }
 .active .drop-effect6 { transition-delay:1.7s; }
 
-[class*="up-effect"] {transform: translate3d(0, 50px, 0); opacity:0;}
-.active [class*="up-effect"] { transform:translate3d(0,0,0); opacity:1; transition-property:opacity, transform;  transition-duration: 0.3s; transition-timing-function:ease-in; }
+[class*="up-effect"] {position:relative; top: -80px; opacity:0;}
+.active [class*="up-effect"] { top: 0; opacity:1; transition-property:all; transition-duration: 0.3s; transition-timing-function:ease-in; }
 .active .up-effect1 { transition-delay:0.2s; }
 .active .up-effect2 { transition-delay:0.5s; }
 .active .up-effect3 { transition-delay:0.8s; }
 .active .up-effect4 { transition-delay:1.1s; }
 .active .up-effect5 { transition-delay:1.4s; }
 .active .up-effect6 { transition-delay:1.7s; }
+.active.history .pos1 { top: 220px; }
+.active.history .pos2 { top: 80px; }
+.active.history .pos3 { top: 320px; }
+.active.history .pos4 { top: 150px; }
 
-[class*="left-effect"] {transform: translate3d(50px, 0, 0); opacity:0;}
-.active [class*="left-effect"] { transform:translate3d(0,0,0); opacity:1; transition-property:opacity, transform;  transition-duration: 0.3s; transition-timing-function:ease-in; }
+[class*="left-effect"] { position:relative; left: 50px; opacity:0;}
+.active [class*="left-effect"] { left:0; opacity:1; transition-property:all;  transition-duration: 0.3s; transition-timing-function:ease-in; }
 .active .left-effect1 { transition-delay:0.2s; }
 .active .left-effect2 { transition-delay:0.5s; }
+.left-effect3 { left: 100px; }
 .active .left-effect3 { transition-delay:0.8s; }
+.left-effect4 { left: 200px; }
 .active .left-effect4 { transition-delay:1.1s; }
+.left-effect5 { left: 300px; }
 .active .left-effect5 { transition-delay:1.4s; }
+.left-effect6 { left: 400px; }
 .active .left-effect6 { transition-delay:1.7s; }
+
+[class*="right-effect"] { position:relative; right: 50px; opacity:0;}
+.active [class*="right-effect"] { right:0; opacity:1; transition-property:all;  transition-duration: 0.3s; transition-timing-function:ease-in; }
+.active .right-effect1 { transition-delay:0.2s; }
+.active .right-effect2 { transition-delay:0.5s; }
+.right-effect3 { right: 100px; }
+.active .right-effect3 { transition-delay:0.8s; }
+.right-effect4 { right: 200px; }
+.active .right-effect4 { transition-delay:1.1s; }
+.right-effect5 { right: 300px; }
+.active .right-effect5 { transition-delay:1.4s; }
+.right-effect6 { right: 400px; }
+.active .right-effect6 { transition-delay:1.7s; }
